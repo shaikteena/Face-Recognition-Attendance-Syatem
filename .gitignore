@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+# Attendance records may contain personal information
+Attendance.csv
+
+# Do not upload real student photos unless you have permission
+known_faces/*
+!known_faces/.gitkeep
